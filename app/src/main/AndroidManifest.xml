@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.vihaan.whatsappclone">
+    package="com.adampc.chatanon">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,21 +10,34 @@
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".App"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".ui.homescreen.MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        android:name="com.adampc.chatanon.App"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true">
 
         <activity
-            android:name=".ui.chatscreen.ChatActivity"
+            android:name="com.adampc.chatanon.ui.homescreen.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="status.adampc.com" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.adampc.chatanon.ui.chatscreen.ChatActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.welcomeScreen.WelcomeActivity"
+            android:name="com.adampc.chatanon.ui.welcomeScreen.WelcomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -34,48 +47,35 @@
         </activity>
 
         <activity
-            android:name=".ui.verifyPhoneScreen.VerifyPhoneActivity"
+            android:name="com.adampc.chatanon.ui.verifyPhoneScreen.VerifyPhoneActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.createUserScreen.CreateUserActivity"
+            android:name="com.adampc.chatanon.ui.createUserScreen.CreateUserActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".ui.userListScreen.UserListActivity"
+            android:name="com.adampc.chatanon.ui.userListScreen.UserListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:label="@string/activity_user_list_label"
             />
 
-
-
         <service
-            android:name=".services.InstanceIdService"
-            tools:ignore="ExportedService">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-            </intent-filter>
-        </service>
-
-        <service
-            android:name=".services.MessagingService"
+            android:name="com.adampc.chatanon.services.MessagingService"
             tools:ignore="ExportedService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
-
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_message" />
-
 
     </application>
 

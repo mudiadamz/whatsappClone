@@ -1,0 +1,172 @@
+{
+  "project_info": {
+    "project_number": "119439049737",
+    "firebase_url": "https://mudi-adamz.firebaseio.com",
+    "project_id": "mudi-adamz",
+    "storage_bucket": "mudi-adamz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119439049737:android:dfd9812fc0b053cf",
+        "android_client_info": {
+          "package_name": "com.adampc.chatanonim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119439049737-1bvmf0kij5t09cr6md2u21dvt2r3j1p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60s_Qd6uKLTWRUAyvVvXB2S1XilqDxQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119439049737-b30usrm85lurnpgldt8qpoi8g4flqvoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119439049737:android:50b2abaad76d9137",
+        "android_client_info": {
+          "package_name": "com.mappi.eval"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119439049737-1bvmf0kij5t09cr6md2u21dvt2r3j1p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60s_Qd6uKLTWRUAyvVvXB2S1XilqDxQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119439049737-b30usrm85lurnpgldt8qpoi8g4flqvoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119439049737:android:99e792e0afd6b7c1",
+        "android_client_info": {
+          "package_name": "com.tebakkata.lokal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119439049737-5h82kndj7cmenrt3558r3todibqfrv1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tebakkata.lokal",
+            "certificate_hash": "2ab7be055a5e2471270cf96deb474cf8bd348e46"
+          }
+        },
+        {
+          "client_id": "119439049737-1bvmf0kij5t09cr6md2u21dvt2r3j1p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60s_Qd6uKLTWRUAyvVvXB2S1XilqDxQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119439049737-b30usrm85lurnpgldt8qpoi8g4flqvoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119439049737:android:b4fcbe93638ce381",
+        "android_client_info": {
+          "package_name": "com.whatsapp.clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119439049737-6vj7q30lthcif3tjr34r3rjmtood7or6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whatsapp.clone",
+            "certificate_hash": "f3437dea5af85133fde55284212828bd216dfc9c"
+          }
+        },
+        {
+          "client_id": "119439049737-1bvmf0kij5t09cr6md2u21dvt2r3j1p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60s_Qd6uKLTWRUAyvVvXB2S1XilqDxQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119439049737-b30usrm85lurnpgldt8qpoi8g4flqvoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119439049737:android:606edb22d8a1b517",
+        "android_client_info": {
+          "package_name": "id.go.kemdikbud.maotukin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119439049737-1bvmf0kij5t09cr6md2u21dvt2r3j1p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD60s_Qd6uKLTWRUAyvVvXB2S1XilqDxQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119439049737-b30usrm85lurnpgldt8qpoi8g4flqvoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
